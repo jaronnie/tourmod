@@ -1,9 +1,9 @@
 package tourmod
 
-var (
-	version = "v2.0.0"
+import (
+	"github.com/jaronnie/tourmod/v2/version"
 )
 
 func GetVersion() string {
-	return version
+	return version.GetVersion()
 }
