@@ -7,5 +7,6 @@ commit=$1
 
 sleep 15
 
+exit 1
 
 
