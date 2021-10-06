@@ -4,6 +4,6 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - use: actions/checkout@v2
+      - uses: actions/checkout@v2
       - name: check commit message
         run: ls
