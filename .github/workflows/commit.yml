@@ -1,8 +1,9 @@
 name: GitHub Actions Demo
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  check:
     runs-on: ubuntu-latest
     steps:
-     - name: check commit message
-       run: ls
+      - use: actions/checkout@v2
+      - name: check commit message
+        run: ls
