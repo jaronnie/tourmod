@@ -5,5 +5,7 @@
 # shellcheck disable=SC2034
 commit=$1
 
+sleep 15
+
 
 
